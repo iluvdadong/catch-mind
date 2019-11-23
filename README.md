@@ -5,4 +5,5 @@ Realtime Drawing Game built with SocketIO, Gulp and Node
 - [x] Sever
 - [X] Pug
 - [X] Static
+- [X] ESLint
 - [ ] SocketIO
