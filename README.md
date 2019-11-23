@@ -3,6 +3,6 @@ Realtime Drawing Game built with SocketIO, Gulp and Node
 
 ## TO DO :
 - [x] Sever
-- [ ] Pug
-- [ ] Static
+- [X] Pug
+- [X] Static
 - [ ] SocketIO
