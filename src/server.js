@@ -7,4 +7,4 @@ app.set("views engine", "pug");
 const handleListening = () => 
     console.log('Server running: http://localhost:${PORT}');
 
-app.listen(PORT, handleListening); 
+app.listen(PORT, handleListening);
