@@ -11,14 +11,34 @@
     "@babel/core": "^7.7.4",
     "@babel/node": "^7.7.4",
     "@babel/preset-env": "7.7.1",
+    "eslint": "^6.7.2",
     "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "morgan": "^1.9.1",
+    "node-sass": "^4.13.0",
     "nodemon": "^1.19.4",
     "pug": "^2.0.4",
     "socket.io": "^2.3.0"
   },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
   "scripts": {
-    "dev:server": "nodemon --exec babel-node src/server"
+    "dev:server": "nodemon --exec babel-node src/server",
+    "dev:assets": "gulp"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.7.0",
