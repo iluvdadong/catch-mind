@@ -9,8 +9,9 @@ const LOGGED_IN = "loggedIn";
 const nickname = localStorage.getItem(NICKNAME);
 
 const logIn = nickname => {
-    const socket = io("/");
-    socket.emit("setNickname", { nickname });
+  
+    window.socket = io("/");
+    window.socket.emit(window.events.setNickname, { nickname });
 };
 
 
